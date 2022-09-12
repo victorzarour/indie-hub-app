@@ -4,7 +4,7 @@
 
 ## OVERVIEW
 
-IndieHub allows users to explore A24’s film catalog, showing detailed information and a trailer for every movie.  
+Indie Hub allows users to explore A24’s film catalog, showing detailed information and a trailer for every movie.  
 
 The app is currently deployed here: https://indie-hub.herokuapp.com/
 
