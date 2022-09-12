@@ -20,6 +20,12 @@ class ReviewsController < ApplicationController
         render json: review
     end
 
+    def destroy
+        user_review = Review.find(params[:id])
+        user_review.destroy
+        head :no_content
+    end
+
     def film_reviews
         film_reviews = Film.find(params[:id]).reviews
         render json: film_reviews
