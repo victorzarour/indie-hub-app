@@ -1,0 +1,66 @@
+.film-li-image {
+    height: 400px;
+    width: 280px;
+    float: left;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+html, body {
+    margin:0px;
+    height:100%;
+    background-color: black;
+  }
+  
+  
+.filmContainer{
+    background-image: url("https://cbeditz.com/large/11624180288j4jptbof2ka10flgsot4wlf0sipbyq04jqw4xqq3szl2yptyiygyrgalhpiznbac4ht9w2beixowl7quexcrddlyx77urnuuhuke.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.film-li-info {
+    background-color: rgba(1, 1, 1, 0.3);
+    margin: 20px auto;
+    padding: 30px;
+    color: white;
+    width: 65%;
+    line-height: 30px;
+    border-radius: 15px;
+    height: 440px;
+}
+
+.film-li-heading a{
+    text-decoration: none;
+    color: white;
+}
+
+.film-li-heading{
+    font-size: 30px;
+    padding-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.film-body-details {
+    font-size: 20px;
+    display: inline;
+    text-align: justify;
+    line-height: 40px;
+    letter-spacing: .8px;
+}
+
+@media only screen and (max-width: 1800px) {
+    .film-body-details {
+        font-size: 15px;
+    }
+  }
+
+.rotten-tomato {
+    max-width: 50px;
+    max-height: 50px;
+    padding-top: 5px;
+}

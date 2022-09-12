@@ -1,0 +1,172 @@
+.filmDetailsDiv{
+    background-image: url("https://cbeditz.com/large/11624180288j4jptbof2ka10flgsot4wlf0sipbyq04jqw4xqq3szl2yptyiygyrgalhpiznbac4ht9w2beixowl7quexcrddlyx77urnuuhuke.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    color: black;
+    padding-bottom: 50px;
+}
+
+.filmDetailsDiv img{
+    max-height: 200px;
+}
+
+iframe{
+    border-radius: 20px;
+}
+
+.trailer{
+    padding-top: 10rem;
+    margin-bottom: 3.5rem;
+}
+
+.basicInfo{
+    background-color: lightgray;
+    width: 35%;
+    height: 240px;
+    margin: 60px auto;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.basicInfo h1{
+    margin: 20px 0;
+    padding-top: 30px;
+}
+
+.rottenTomatoLogo{
+    width: 70px;
+    float: left;
+    margin-left: 40%;
+    margin-right: 15px;
+    margin-top: 25px;
+}
+
+.score{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 0px;
+    line-height: 105px;
+    float: left;
+}
+
+.score img{
+    max-width: 60px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.additionalInfo{
+    background-color: lightgray;
+    width: 35%;
+    height: 280px;
+    margin: 60px auto;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 0;
+    height: auto;
+}
+
+.additionalInfo p{
+    margin: 20px;
+    text-align: justify;
+}
+
+.individualReviews{
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    border-radius: 20px;
+    margin: 30px auto;
+}
+
+.individualReviews button, .reviewSubmitForm button, .errorSubmit button{
+    margin: 14px 14px;
+    margin-bottom: 0px;
+    padding: 7px;
+    width: 200px;
+    border-radius: 8px;
+    border: none;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.reviews h2{
+    color: white;
+}
+
+.reviewSubmitForm h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.reviewSubmitForm{
+    color: black;
+    padding-bottom: 60px;
+}
+
+.input{
+    width: 31.5%;
+    border-radius: 10px;
+    height: 20px;
+    margin: 10px auto;
+    padding: 12px;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif; 
+    font-size: 18px;
+}
+
+.textarea{
+    width: 31.5%;
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 12px;
+    text-align: justify;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif; 
+    font-size: 18px;
+}
+
+.input::placeholder, .textarea::placeholder { 
+    color: black;
+    font-family: "Roboto", sans-serif; 
+    line-height: 30px;
+    font-family: "Roboto", sans-serif; 
+    font-size: 18px;   
+}
+
+.editInput{
+    width: 95%;
+    height: 300px;
+    border: none;
+    line-height: 30px;
+    font-family: "Roboto", sans-serif; 
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+}
+
+.reviewBody{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.errorSubmit{
+    background-color: white;
+    width: 30%;
+    padding: 20px;
+    line-height: 25px;
+    border-radius: 20px;
+    margin: 30px auto;
+}
