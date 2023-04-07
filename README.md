@@ -6,7 +6,7 @@
 
 IndieHub allows users to explore A24’s impressive film catalog, showing detailed information and a trailer for every movie.  
 
-The app is currently deployed here: https://indie-hub.herokuapp.com/
+The app is deployed here: https://indie-hub.herokuapp.com/
 
 You can also find a demo here: https://www.linkedin.com/feed/update/urn:li:activity:6953765082694615041/?updateEntityUrn=urn%3Ali%3Afs_feedUpdate%3A%28V2%2Curn%3Ali%3Aactivity%3A6953765082694615041%29
 
